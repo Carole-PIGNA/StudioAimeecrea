@@ -11,6 +11,8 @@
   --card-text: #1c1c1c;
   --card-accent-1: #3b5f3b;
   --card-accent-2: #8c5f4e;
+  --hero-text-light: #fdf8f3;
+  --hero-text-dark: #1c2a1c;
 }
 
 /* Mode sombre automatique (préférence système) */
@@ -34,6 +36,7 @@
   --card-text: #ffffff;
   --card-accent-1: #a8d8a8;
   --card-accent-2: #f4cfa1;
+  --hero-text-light:#d4af37;
 }
 
 /* Styles globaux */
@@ -60,3 +63,4 @@ a {
 a:hover {
   color: #d4af37; /* ton doré */
 }
+

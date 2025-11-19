@@ -58,7 +58,7 @@ export default function Gallery() {
         </h2>
 
         <p className="text-lg max-w-3xl mx-auto leading-relaxed">
-          Chaque entrepreneure a son énergie, son style, son histoire. Voici quelques univers que j’aime créer — pour t’aider à imaginer le tien.
+          Chaque entrepreneur a son énergie, son style, son histoire. Voici quelques univers que j’aime créer — pour t’aider à imaginer le tien.
         </p>
 
         {/* Grille vidéo */}
@@ -68,6 +68,10 @@ export default function Gallery() {
               key={index}
               className="rounded-xl overflow-hidden shadow-md bg-[var(--background)] text-[var(--foreground)] transition-colors duration-300 hover:shadow-lg"
             >
+                <div className="relative">
+                <div className="absolute top-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded-full z-10">
+                    Vidéo
+                </div>
               <video
                 src={item.src}
                 poster={item.poster}
@@ -87,6 +91,19 @@ export default function Gallery() {
                   } catch (_) {}
                 }}
               />
+              <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                <div className="bg-black/50 rounded-full p-3">
+                    <svg
+                        className="w-6 h-6 text-white"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                    >
+                        <path d="M8 5v14l11-7z" />
+                    </svg>
+                </div>
+             </div>
+             </div>
+              
               <div className="p-6 space-y-2">
                 <h3 className="text-xl font-semibold text-[#a87a64] dark:text-[#d4af37]">
                   {item.title}

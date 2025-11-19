@@ -16,7 +16,7 @@ export default function TrustSection() {
         {/* Intro */}
         <p className="text-lg max-w-3xl mx-auto leading-relaxed">
           Je combine <strong>rigueur d’ingénieure</strong> et <strong>sensibilité créative</strong>, 
-          pour offrir aux femmes entrepreneures des sites qui inspirent, rassurent et donnent confiance.
+          pour offrir aux entrepreneur.es des sites qui inspirent, rassurent et donnent confiance.
         </p>
 
         {/* Chiffres clés */}
@@ -31,7 +31,7 @@ export default function TrustSection() {
           </div>
           <div className="space-y-2">
             <p className="text-5xl font-bold text-[#3b5f3b] dark:text-[#a8d8a8]">100%</p>
-            <p>focus femmes entrepreneures</p>
+            <p>focus sur l’authenticité et la réussite des entrepreneur·es</p>
           </div>
           <div className="space-y-2">
             <p className="text-5xl font-bold text-[#f5ca92] dark:text-[#d4af37]">∞</p>

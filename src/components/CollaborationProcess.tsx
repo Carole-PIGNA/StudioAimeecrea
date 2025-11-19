@@ -20,7 +20,7 @@ export default function CollaborationProcess() {
     {
       label: "Lancement",
       color: "#f5ca92",
-      description: "On met ton site en ligne, prêt à rayonner et à accueillir tes clientes.",
+      description: "On met ton site en ligne, prêt à rayonner et à accueillir tes clients.",
     },
   ];
 

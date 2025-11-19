@@ -170,7 +170,7 @@ export default function Rappel() {
             {/* Sujet */}
             <div>
               <label htmlFor="subject" className="block text-sm font-medium text-[var(--foreground)]">
-                Je souhaite être rappelée pour…
+                Je souhaite être rappelé pour…
               </label>
               <textarea
                 id="subject"

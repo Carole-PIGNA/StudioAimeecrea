@@ -13,6 +13,10 @@ module.exports = {
         marron: "#a87a64",
         doré: "#d4af37",
       },
+      fontFamily: {
+        montserrat: ['var(--font-montserrat)', 'sans-serif'],
+        inter: ['var(--font-inter)', 'sans-serif'],
+      },
     },
   },
   plugins: [],

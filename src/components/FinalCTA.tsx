@@ -10,7 +10,7 @@ export default function FinalCTA() {
     >
       <div className="max-w-4xl mx-auto text-center space-y-8">
         <h2 className="text-3xl md:text-4xl font-serif text-[#3b5f3b] dark:text-[#d4af37] transition-colors duration-300">
-          Prête à créer ton univers digital ?
+          Prêt à créer ton univers digital ?
         </h2>
 
         <p className="text-lg max-w-2xl mx-auto leading-relaxed">
@@ -18,17 +18,17 @@ export default function FinalCTA() {
           Je suis là pour t’accompagner à chaque étape.
         </p>
 
-        <div className="flex flex-col md:flex-row justify-center gap-6 mt-6">
-          <Link href="/contact">
-            <button className="bg-[#3b5f3b] text-white px-6 py-3 rounded-full hover:bg-[#2f4f2f] transition text-base font-semibold">
-              Démarrer mon projet
+     <div className="flex flex-col md:flex-row justify-center gap-6 mt-6">
+        <Link href="/contact">
+            <button className="w-[220px] bg-[#3b5f3b] text-white py-3 rounded-full hover:bg-[#2f4f2f] transition text-base font-semibold text-center whitespace-nowrap">
+            Démarrer mon projet
             </button>
-          </Link>
-          <Link href="/rappel">
-            <button className="bg-[var(--background)] text-[#3b5f3b] border-2 border-[#3b5f3b] px-6 py-3 rounded-full hover:bg-[#f5f5f5] dark:hover:bg-[#2a2a2a] transition text-base font-semibold">
-              Réserver un appel découverte
+        </Link>
+        <Link href="/rappel">
+            <button className="text-sm w-[240px] bg-[var(--background)] text-[#3b5f3b] border-2 border-[#3b5f3b] py-3 rounded-full hover:bg-[#f5f5f5] dark:hover:bg-[#2a2a2a] transition text-base font-semibold text-center whitespace-nowrap">
+            Réserver un appel découverte
             </button>
-          </Link>
+        </Link>
         </div>
       </div>
     </section>

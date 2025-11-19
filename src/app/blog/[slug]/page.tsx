@@ -10,11 +10,12 @@ const articles = {
   image: "/images/crea_site_sans_cms.png",
   content: `
 <h2 class="text-[#d4af37] text-xl font-semibold mt-8 mb-4">Introduction</h2>
-<p>Beaucoup d’entrepreneuses débutent avec des CMS comme WordPress, Wix ou Shopify. Ces plateformes séduisent par leur simplicité apparente : quelques clics suffisent pour avoir un site en ligne. Pourtant, derrière cette facilité se cachent des limites techniques et stratégiques qui peuvent freiner la croissance d’un projet à moyen et long terme.</p>
+<p>Beaucoup d’entrepreneur.es débutent avec des CMS comme WordPress, Wix ou Shopify. Ces plateformes séduisent par leur simplicité apparente : quelques clics suffisent pour avoir un site en ligne. Pourtant, derrière cette facilité se cachent des limites techniques et stratégiques qui peuvent freiner la croissance d’un projet à moyen et long terme.</p>
 <p>Créer son site sans CMS, c’est choisir la liberté, la performance et l’élégance. C’est aussi s’offrir un outil digital qui reflète pleinement ton identité et qui peut évoluer sans contraintes externes.</p>
 
 <h2 class="text-[#d4af37] text-xl font-semibold mt-8 mb-4">Les limites des CMS</h2>
-<p>Les CMS sont conçus pour répondre aux besoins génériques d’un maximum d’utilisateurs. Résultat : ils imposent des cadres rigides qui ne correspondent pas toujours aux ambitions d’une entrepreneuse créative ou d’une marque en pleine expansion.</p>
+<p>Les CMS sont conçus pour répondre aux besoins génériques d’un maximum d’utilisateurs. Résultat : ils imposent des cadres rigides qui ne correspondent pas toujours aux ambitions d’un.e
+ entrepreneur.e créatif ou d’une marque en pleine expansion.</p>
 <ul class="list-disc list-inside">
   <li><strong>Design figé et peu personnalisable :</strong> les thèmes proposés sont souvent limités. Même avec des options de personnalisation, il est difficile de sortir des sentiers battus et de créer une identité visuelle vraiment unique.</li>
   <li><strong>Dépendance aux plugins :</strong> pour ajouter des fonctionnalités, il faut installer des extensions. Cela entraîne une dépendance à des outils externes, parfois mal maintenus, qui peuvent ralentir ton site ou créer des failles de sécurité.</li>
@@ -34,11 +35,11 @@ const articles = {
 </ul>
 
 <h2 class="text-[#d4af37] text-xl font-semibold mt-8 mb-4">Exemples concrets</h2>
-<p>Imagine une entrepreneuse qui lance une marque de bijoux haut de gamme. Avec un CMS, elle devra se contenter d’un thème e-commerce générique, difficile à adapter à l’univers raffiné de sa marque. Avec un site sur-mesure, elle peut créer une expérience immersive : animations élégantes, storytelling visuel, parcours d’achat fluide et rassurant.</p>
-<p>Autre exemple : une coach qui souhaite proposer des programmes personnalisés. Un CMS lui imposera des formulaires standards. Un site sur-mesure lui permettra de concevoir un espace client unique, avec des fonctionnalités adaptées à son approche pédagogique.</p>
+<p>Imagine une entrepreneure qui lance une marque de bijoux haut de gamme. Avec un CMS, elle devra se contenter d’un thème e-commerce générique, difficile à adapter à l’univers raffiné de sa marque. Avec un site sur-mesure, elle peut créer une expérience immersive : animations élégantes, storytelling visuel, parcours d’achat fluide et rassurant.</p>
+<p>Autre exemple : un coach qui souhaite proposer des programmes personnalisés. Un CMS lui imposera des formulaires standards. Un site sur-mesure lui permettra de concevoir un espace client unique, avec des fonctionnalités adaptées à son approche pédagogique.</p>
 
 <h2 class="text-[#d4af37] text-xl font-semibold mt-8 mb-4">Conclusion</h2>
-<p>Un site sans CMS est un investissement stratégique. Il devient un outil vivant, capable d’évoluer avec ton activité et de refléter ton identité unique. C’est un choix qui demande plus de réflexion au départ, mais qui offre une liberté incomparable sur le long terme.</p>
+<p>Un site sans CMS est un investissement stratégique. Il devient un outil vivant, capable d’voluer avec ton activité et de refléter ton identité unique. C’est un choix qui demande plus de réflexion au départ, mais qui offre une liberté incomparable sur le long terme.</p>
 <p>En optant pour un site sur-mesure, tu choisis la transparence, la qualité et la pérennité. Tu t’assures que chaque étape est pensée pour toi, avec des tests réalisés ensemble et une approche professionnelle qui inspire confiance. Ton site n’est plus seulement une vitrine : il devient un véritable levier de croissance et un espace où ton univers peut s’exprimer pleinement.</p>
     `,
 },
@@ -94,7 +95,7 @@ const articles = {
 <ul class="list-disc list-inside">
   <li><strong>Création de contenu utile et inspirant :</strong> rédiger des articles de blog, partager des conseils pratiques, publier des témoignages ou des études de cas. Le contenu est ce qui attire les visiteurs et leur donne une raison de revenir. Il doit être pensé pour ta cible et répondre à ses besoins.</li>
   <li><strong>Présence régulière sur les réseaux sociaux :</strong> Instagram, LinkedIn, TikTok ou Pinterest selon ton audience. Les réseaux sociaux permettent de créer du lien, de montrer les coulisses de ton activité et de renforcer ton image de marque. La régularité est clé : mieux vaut publier peu mais de façon constante que beaucoup puis disparaître.</li>
-  <li><strong>Collaborations stratégiques :</strong> s’associer à d’autres entrepreneures, participer à des podcasts, écrire des articles invités ou organiser des événements en ligne. Les collaborations élargissent ton audience et renforcent ta crédibilité.</li>
+  <li><strong>Collaborations stratégiques :</strong> s’associer à d’autres entrepreneurs, participer à des podcasts, écrire des articles invités ou organiser des événements en ligne. Les collaborations élargissent ton audience et renforcent ta crédibilité.</li>
   <li><strong>Référencement naturel (SEO) :</strong> optimiser ton contenu pour Google afin d’apparaître dans les résultats de recherche. Un bon SEO est un investissement durable qui attire des visiteurs qualifiés sans dépendre de la publicité.</li>
   <li><strong>Email marketing :</strong> construire une liste de contacts et envoyer des newsletters régulières. L’email reste un canal puissant pour fidéliser et convertir, car il crée une relation directe et personnalisée.</li>
 </ul>
