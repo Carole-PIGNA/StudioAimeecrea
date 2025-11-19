@@ -59,7 +59,7 @@ export default function ContactPage() {
               Parle-moi de ton projet ✨
             </h1>
             <p className="text-lg">
-              Que tu sois prête à démarrer, à brainstormer ou simplement à poser tes idées…  
+              Que tu sois prêt à démarrer, à brainstormer ou simplement à poser tes idées…  
               je suis là pour t’écouter, te guider et créer un site qui te ressemble.
             </p>
 
