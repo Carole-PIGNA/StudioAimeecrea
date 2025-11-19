@@ -6,7 +6,7 @@ const services = [
   {
     icon: <FaLaptopCode />,
     title: "Site web sur-mesure",
-    text: "Un site élégant, fluide et pensé pour convertir. Adapté à ton univers et à tes clientes.",
+    text: "Un site élégant, fluide et pensé pour convertir. Adapté à ton univers et à tes clients.",
     bg: "var(--card-bg-1)",
     accent: "var(--card-accent-1)",
   },
@@ -20,7 +20,7 @@ const services = [
   {
     icon: <FaPalette />,
     title: "Identité visuelle",
-    text: "Palette, typographie, ambiance… Je crée une esthétique cohérente et féminine qui te ressemble.",
+    text: "Palette, typographie, ambiance… Je crée une esthétique cohérente qui te ressemble.",
     bg: "var(--card-bg-1)",
     accent: "var(--card-accent-1)",
   },
@@ -35,18 +35,18 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section id="services" className="relative -mt-32 md:-mt-10 z-20 px-6">
+    <section
+      id="services"
+      className="relative mt-6 md:-mt-10 lg:-mt-32 z-20 px-6"
+    >
       <div className="max-w-5xl mx-auto grid md:grid-cols-1 lg:grid-cols-4 gap-8">
         {services.map((service, index) => (
           <div
             key={index}
-            className={`rounded-xl shadow-xl p-6 hover:shadow-2xl transition`}
+            className="rounded-xl shadow-xl p-6 hover:shadow-2xl transition"
             style={{ backgroundColor: service.bg, color: "var(--card-text)" }}
           >
-            <div
-              className="text-3xl mb-4"
-              style={{ color: service.accent }}
-            >
+            <div className="text-3xl mb-4" style={{ color: service.accent }}>
               {service.icon}
             </div>
             <h3 className="text-xl font-semibold mb-2">{service.title}</h3>

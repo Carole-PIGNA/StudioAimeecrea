@@ -15,24 +15,24 @@ export default function AboutSection() {
       <div className="relative z-10 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         
         {/* Texte à gauche */}
-        <div>
-          <h2 className="text-3xl md:text-4xl font-serif text-[#a87a64] dark:text-[#d4af37] mb-6 transition-colors duration-300">
+        <div className="text-justify">
+          <h2 className="text-center text-3xl md:text-4xl font-serif text-[#a87a64] dark:text-[#d4af37] mb-6 transition-colors duration-300">
             Je crée pour toi
           </h2>
           <div className="space-y-6 text-lg leading-relaxed">
             <p>
-              Ancienne ingénieure biomédicale, j’ai choisi de me réinventer pour suivre mon élan créatif. 
-              Aujourd’hui, je mets cette reconversion au service des femmes entrepreneures qui veulent 
-              <strong> rayonner en ligne</strong> avec authenticité et confiance.
+            Ingénieure biomédicale de formation, j’ai choisi de me réinventer pour suivre mon élan créatif. 
+            Aujourd’hui, je mets cette reconversion au service des personnes entrepreneures qui souhaitent
+             rayonner en ligne avec authenticité et confiance.
             </p>
             <p>
-              Mon rôle est de transformer ta vision en une <strong>présence digitale</strong> élégante et magnétique, 
+              Mon rôle est de transformer ta vision en une présence digitale élégante et magnétique, 
               qui attire les bonnes personnes et reflète ton univers unique.
             </p>
           </div>
 
           {/* Bouton CTA */}
-          <div className="mt-8">
+          <div className="mt-8 flex justify-center">
             <Link href="/contact">
               <button className="bg-[#d4af37] text-black px-6 py-3 rounded-full hover:bg-[#b9972f] transition text-base font-semibold">
                 Démarrer mon projet

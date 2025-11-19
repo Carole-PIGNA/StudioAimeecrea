@@ -21,7 +21,7 @@ export default function Header() {
       }`}
     >
       {/* Fond transparent + léger blur */}
-      <div className="backdrop-blur-sm bg-[var(--background)]/70 transition-colors duration-300">
+      <div className="backdrop-blur-sm bg-[var(--background)]/20 transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-2 md:py-3 flex items-center justify-between">
           
           
@@ -81,8 +81,8 @@ export default function Header() {
           }`}
           onClick={() => setOpen(false)}
         />
-        <div className="relative bg-[var(--background)]/90 text-[var(--foreground)] transition-colors duration-300">
-          <div className="max-w-7xl mx-auto px-4 py-6 space-y-4">
+        <div className="relative bg-transparent text-[var(--foreground)] transition-colors duration-300">
+          <div className="max-w-7xl mx-auto px-4 py-6 space-y-4 bg-transparent">
             <Link href="/" onClick={() => setOpen(false)} className="block py-2 hover:opacity-80 transition">Accueil</Link>
             <Link href="/#gallery" onClick={() => setOpen(false)} className="block py-2 hover:opacity-80 transition">Designs</Link>
             <Link href="/blog" onClick={() => setOpen(false)} className="block py-2 hover:opacity-80 transition">Blog</Link>
@@ -93,7 +93,9 @@ export default function Header() {
               </button>
             </Link>
             <h1 className="text-xl font-serif text-[#a87a64] dark:text-[#d4af37]">Studio AiméeCréa</h1>
+            <div className="flex justify-center pt-4">
             <ThemeToggle />
+            </div>
           </div>
         </div>
       </div>
