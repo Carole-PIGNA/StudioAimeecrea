@@ -37,7 +37,7 @@ export default function ServicesSection() {
   return (
     <section
       id="services"
-      className="relative mt-6 md:-mt-10 lg:-mt-32 z-20 px-6"
+      className="relative mt-12 md:-mt-20 lg:-mt-34 z-20 px-6"
     >
       <div className="max-w-5xl mx-auto grid md:grid-cols-1 lg:grid-cols-4 gap-8">
         {services.map((service, index) => (

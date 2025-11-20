@@ -1,12 +1,11 @@
-
 import "./globals.css";
-import Header from "@/components/Header"
-import Footer from "@/components/Footer"
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { Montserrat, Inter } from "next/font/google";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-  weight: ["800"], // ou ["700", "800"] si tu veux plus de variantes
+  weight: ["800"],
   variable: "--font-montserrat",
 });
 
@@ -15,19 +14,22 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-
 export const metadata = {
   title: "Studio Aimée Créa",
   description: "Création de sites élégants et immersifs",
   icons: {
-    icon: "/images/favicon_StudioAimeeCrea_64.png",
+    icon: "/icons/icon-192.png", // nouvelle icône PWA
   },
 };
-
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" href="/icons/icon-192.png" />
+        <meta name="theme-color" content="#d8a87c" />
+      </head>
       <body className={`${montserrat.variable} ${inter.variable} font-sans flex flex-col min-h-screen`}>
         <Header />
         <main className="flex-grow">{children}</main>
@@ -36,4 +38,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
-

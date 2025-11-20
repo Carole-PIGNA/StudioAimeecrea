@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full min-h-[85vh] md:min-h-[100vh] flex items-center justify-center">
+    <section className="relative w-full min-h-[80vh] md:min-h-screen flex items-center justify-center mb-16 md:mb-32">
       {/* Image de fond */}
       <div className="absolute inset-0">
         <Image
@@ -45,24 +45,6 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Flèche animée */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
-        <a href="#pourquoi-site" aria-label="Scroll down">
-          <svg
-            className="w-10 h-10 sm:w-14 sm:h-14 text-[#d4af37] animate-bounce"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M19 9l-7 7-7-7"
-            />
-          </svg>
-        </a>
-      </div>
     </section>
   );
 }
