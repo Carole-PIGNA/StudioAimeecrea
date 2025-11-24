@@ -18,7 +18,7 @@ export const metadata = {
   title: "Studio Aimée Créa",
   description: "Création de sites élégants et immersifs",
   icons: {
-    icon: "/icons/icon-192.png", // nouvelle icône PWA
+    icon: "/images/icon-192_noBG.png", 
   },
 };
 
