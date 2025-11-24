@@ -8,6 +8,7 @@ import Gallery from "@/components/Gallery";
 import CollaborationProcess from "@/components/CollaborationProcess";
 import OffersSection from "@/components/OffersSection";
 import FinalCTA from "@/components/FinalCTA";
+import FAQSection from "@/components/FAQ";
 
 export const metadata = {
   title: "Studio AiméeCréa – Crée ton univers digital",
@@ -47,6 +48,7 @@ export default function Home() {
     <Gallery />
     <CollaborationProcess />
     <OffersSection />
+    <FAQSection />
     <FinalCTA />
     </>
   )
